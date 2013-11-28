@@ -1,3 +1,3 @@
 webgl
 =====
-https://github.com/tony-minihum/webgl
+http://tony-minihum.github.com/webgl/
