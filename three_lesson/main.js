@@ -1,5 +1,7 @@
 // main.js
 
+// 無名関数を定義してすぐさま実行
+// ( function( ){..} )( );
 (function() {
     
     var width = 500;
@@ -41,7 +43,6 @@
     var axis = new THREE.AxisHelper(1000);
     axis.position.set(0, 0, 0);
     scene.add(axis);
-
     // rendering
     var renderer = new THREE.WebGLRenderer();
     renderer.setSize(width, height);
